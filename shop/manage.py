@@ -4,7 +4,7 @@
 # update - обновлять
 # delete - удаление
 
-from products import create, read
+from products import create, read, delete, update
 
 while True:
     oper = input("c/r/u/d: ")
@@ -12,5 +12,10 @@ while True:
         create()
     elif oper == "r":
         read()
+    elif oper == "u":
+        update()
+    elif oper == "d":
+        delete()
+    
         
  
