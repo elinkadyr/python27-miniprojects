@@ -45,5 +45,5 @@ data = {'title':title, 'image':image, 'price':price}
 
 print(data)
 
-# . venv/bin/activate запустить виртуальное пространство
-# deactivate закрыть виртуальное пространство
+# . venv/bin/activate    запустить виртуальное пространство
+# deactivate             закрыть виртуальное пространство
