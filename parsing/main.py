@@ -7,7 +7,8 @@ BASE_URL = 'https://www.kivano.kg'
 def get_soup(url:str) -> BS:
     response = requests.get(url)
     soup = BS(response.text, 'lxml')
-    return soup
+    print(soup)
+    # return soup
 
 
 def get_product_info(product: BS) -> dict:
